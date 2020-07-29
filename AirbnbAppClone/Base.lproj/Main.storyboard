@@ -25,7 +25,7 @@
                                 <rect key="frame" x="20" y="64" width="129.5" height="110"/>
                                 <color key="backgroundColor" red="0.0" green="0.47448295350000003" blue="0.48661357160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRN-5g-aht">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRN-5g-aht" customClass="BnbButton" customModule="AirbnbAppClone" customModuleProvider="target">
                                 <rect key="frame" x="20" y="276" width="364" height="42"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -33,7 +33,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-ro-mSb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-ro-mSb" customClass="BnbButton" customModule="AirbnbAppClone" customModuleProvider="target">
                                 <rect key="frame" x="20" y="338" width="364" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Create Account">
@@ -82,10 +82,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Chb-dl-rQx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2319" y="-29"/>
+            <point key="canvasLocation" x="-1410.144927536232" y="-29.464285714285712"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iiI-DJ-5GS">
@@ -113,7 +114,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Yor-7e-P7G"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -123,7 +124,7 @@
                                     <constraint firstAttribute="width" constant="200" id="J8v-8I-hzT"/>
                                     <constraint firstAttribute="height" constant="30" id="mnt-f7-fA8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -134,7 +135,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNz-Cd-84G">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNz-Cd-84G" customClass="BnbButton" customModule="AirbnbAppClone" customModuleProvider="target">
                                 <rect key="frame" x="300" y="708" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.56567463483802816" blue="0.48661357160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -176,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOb-m2-Xoj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1562" y="-29"/>
+            <point key="canvasLocation" x="-652.17391304347836" y="-29.464285714285712"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sK5-mn-qF1">
@@ -202,11 +203,11 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syq-em-fF6">
                                 <rect key="frame" x="20" y="138" width="194" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wap-NO-iDu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wap-NO-iDu" customClass="BnbButton" customModule="AirbnbAppClone" customModuleProvider="target">
                                 <rect key="frame" x="300" y="708" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.56567463480000002" blue="0.48661357160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -243,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZAs-9A-SOy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-822" y="-29"/>
+            <point key="canvasLocation" x="86.956521739130437" y="-29.464285714285712"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="frC-Mv-wND">
@@ -286,7 +287,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgX-dh-hny">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgX-dh-hny" customClass="BnbButton" customModule="AirbnbAppClone" customModuleProvider="target">
                                 <rect key="frame" x="314" y="708" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.56567463480000002" blue="0.48661357160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -333,7 +334,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGW-fp-To3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-99" y="-29"/>
+            <point key="canvasLocation" x="810.14492753623199" y="-29.464285714285712"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yAO-vV-cuq">
@@ -417,7 +418,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0n-jc-VoE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="628" y="-29"/>
+            <point key="canvasLocation" x="1537.68115942029" y="-29.464285714285712"/>
         </scene>
     </scenes>
     <resources>
