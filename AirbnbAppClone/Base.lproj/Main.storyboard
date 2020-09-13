@@ -254,8 +254,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Your password must contain at least one symble and 8 or more characters " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jNm-As-wpu">
-                                <rect key="frame" x="20" y="141" width="354" height="100"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Your password must contain at least one symble and 8 or more characters " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jNm-As-wpu">
+                                <rect key="frame" x="20" y="141" width="354" height="129"/>
                                 <color key="backgroundColor" red="0.0" green="0.47448295350000003" blue="0.48661357160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Zyz-sE-22S"/>
