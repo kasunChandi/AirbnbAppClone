@@ -13,6 +13,7 @@
 		4A12588924C72B2400B92DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A12588724C72B2400B92DE3 /* Main.storyboard */; };
 		4A12588B24C72B2600B92DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A12588A24C72B2600B92DE3 /* Assets.xcassets */; };
 		4A12588E24C72B2600B92DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A12588C24C72B2600B92DE3 /* LaunchScreen.storyboard */; };
+		4A2A71E4258DBACC0032256D /* BNBtext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A71E3258DBACC0032256D /* BNBtext.swift */; };
 		4AF641D824D1BB870070701B /* BnbButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF641D724D1BB870070701B /* BnbButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		4A12588A24C72B2600B92DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A12588D24C72B2600B92DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A12588F24C72B2600B92DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2A71E3258DBACC0032256D /* BNBtext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNBtext.swift; sourceTree = "<group>"; };
 		4AF641D724D1BB870070701B /* BnbButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BnbButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				4A12588324C72B2400B92DE3 /* SceneDelegate.swift */,
 				4AF641D724D1BB870070701B /* BnbButton.swift */,
 				4A12588524C72B2400B92DE3 /* ViewController.swift */,
+				4A2A71E3258DBACC0032256D /* BNBtext.swift */,
 				4A12588724C72B2400B92DE3 /* Main.storyboard */,
 				4A12588A24C72B2600B92DE3 /* Assets.xcassets */,
 				4A12588C24C72B2600B92DE3 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				4A12588624C72B2400B92DE3 /* ViewController.swift in Sources */,
 				4A12588224C72B2400B92DE3 /* AppDelegate.swift in Sources */,
 				4A12588424C72B2400B92DE3 /* SceneDelegate.swift in Sources */,
+				4A2A71E4258DBACC0032256D /* BNBtext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
